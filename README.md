@@ -5,7 +5,7 @@ Bem vindo ao meu portfólio.
 ## Objetivo do projeto:
 
 O objetivo aqui foi desenvolver um pequeno portfólio, para que todos me conheçam um pouco melhor. 
-Nesse projeto irei manter atualizado tudo que eu adquirir, a cada novo certificado, experiência e vivência que terei na minha vida profissional estará aqui.
+Nesse projeto irei manter atualizado tudo que eu adquirir, a cada novo certificado, experiência e vivência que terei na minha vida profissional.
 
 ## Layout web:
 
