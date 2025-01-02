@@ -23,14 +23,14 @@ function Home () {
             <section className={styles.home}>
             <div className={styles.principal}>
                 <h1 className={styles.textoPrincipal}>Oi! 👋</h1>
-                <h1 className={styles.textoPrincipal}>Eu sou o João!</h1>
+                <h1 className={styles.textoPrincipal}>Eu sou o <strong>João!</strong></h1>
                 <h1>
                     <span className={styles.textoDinamico}>{text}</span>
                     <span className={styles.cursor}>|</span>
                 </h1>
             </div>
             <figure>
-                <img src="./developer.svg" alt="Imagem de desenvolvedor codando" />
+                <img src="./developer.svg" alt="Imagem de desenvolvedor escutando música e escrevendo código" />
             </figure>
             </section>
             <section className={styles.homeApresentacao}>
