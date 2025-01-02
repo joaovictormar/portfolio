@@ -7,10 +7,11 @@
     justify-content: space-around;
 }
 
-.apresentacao {
+.principal {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 500px;
 }
 
 .home h1 {
@@ -18,7 +19,7 @@
     color: var(--cinza-escuro);
 }
 
-.texto {
+.textoPrincipal {
     font-size: 3rem;
 }
 
@@ -27,30 +28,8 @@
     min-width: 600px;
 }
 
-.botao {
-    background-color: var(--primaria);
-    border: 0;
-    border-radius: 8px;
-    width: 400px;
-    height: 70px;
-    color: var(--terciaria);
-    font-family: "Fira Code", monospace;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.botao:hover {
-    transition: 0.3s;
-    background-color: var(--cinza-escuro);
-}
-
 .home img {
-    width: 600px;
+    width: 500px;
 }
 
 .cursor {
@@ -69,4 +48,76 @@
     100% {
         opacity: 1;
     }
+}
+
+.homeApresentacao {
+    margin: 3rem;
+}
+
+.secundario {
+    display: flex;
+    gap: 2rem;
+    color: var(--cinza-escuro);
+}
+
+.homeApresentacao img {
+    width: 500px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.textoApresentacao {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.apresentacao strong {
+    color: var(--primaria);
+}
+
+.conexao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.conexao strong {
+    color: var(--primaria);
+}
+
+.textoConexao {
+    font-size: 25px;
+}
+
+.textoConexaoInferior {
+    font-size: 15px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.linkIcone {
+    border: 2px solid var(--cinza-escuro);
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: var(--cinza-escuro);
+}
+
+.icone {
+    color: var(--primaria);
+}
+
+.linkIcone:hover {
+    scale: 1.1;
+    transition: 0.4s;
+    border: 2px solid var(--primaria);
 }
