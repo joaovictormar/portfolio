@@ -16,44 +16,121 @@ import { VscVscode } from "react-icons/vsc";
 import { SiPostman } from "react-icons/si";
 import { AiOutlineLinux } from "react-icons/ai";
 
-import GitHub from "../../components/Outros/GitHub";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
 
-function Sobre () {
+function Sobre() {
 
     return (
         <>
             <section className={styles.sobre}>
                 <div className={styles.textoSobreMim}>
                     <div className={styles.textoSuperior}>
-                        <h1 className={styles.textoPrincipal}>SAIBA QUEM SOU</h1>
-                        <h3 className={styles.textoSecundario}>Olá, me chamo <strong>João Victor Marques</strong> e sou do <strong>Rio de Janeiro, Brasil</strong>!</h3>
-                        <h3 className={styles.textoSecundario}>Trabalho com <strong>suporte de TI na NASIT.</strong></h3>
-                        <h3 className={styles.textoSecundario}> Curso <strong>Análise e desenvolvimento de sistemas</strong> na Universidade Veiga de Almeida (UVA).</h3>
-                        <h3 className={styles.textoSecundario}>Faço cursos complementares voltados para desenvolvimento web na <strong>Alura!</strong></h3>   
+                        <motion.h1
+
+                            variants={fadeIn("down", 0.3)}
+                            initial="trembling"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.textoPrincipal}>SAIBA QUEM SOU
+                        </motion.h1>
+                        <motion.h3
+
+                            variants={fadeIn("left", 0.3)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.textoSecundario}>Olá, me chamo <strong>João Victor Marques</strong> e sou do <strong>Rio de Janeiro, Brasil</strong>!
+                        </motion.h3>
+                        <motion.h3
+
+                            variants={fadeIn("left", 0.3)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.textoSecundario}>Trabalho com <strong>suporte de TI na NASIT.</strong>
+                        </motion.h3>
+                        <motion.h3
+
+                            variants={fadeIn("left", 0.3)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.textoSecundario}> Curso <strong>Análise e desenvolvimento de sistemas</strong> na Universidade Veiga de Almeida (UVA).
+                        </motion.h3>
+                        <motion.h3
+
+                            variants={fadeIn("left", 0.3)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.textoSecundario}>Faço cursos complementares voltados para desenvolvimento web na <strong>Alura!</strong>
+                        </motion.h3>
                     </div>
                     <div className={styles.textoInferior}>
-                        <h2 className={styles.textoPrincipal}>ALÉM DE CODAR, GOSTO DE...</h2>
-                        <ul className={styles.lista}>
+                        <motion.h2
+
+                            variants={fadeIn("down", 0.3)}
+                            initial="trembling"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.textoPrincipal}>ALÉM DE CODAR, GOSTO DE...
+                        </motion.h2>
+                        <motion.ul
+
+                            variants={fadeIn("left", 0.3)}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.7 }}
+
+                            className={styles.lista}>
                             <li>
                                 <h3 className={styles.textoSecundario}>Esportes</h3>
                             </li>
-                        
+
                             <li>
                                 <h3 className={styles.textoSecundario}>Viajar</h3>
                             </li>
                             <li>
                                 <h3 className={styles.textoSecundario}>Jogar videogames</h3>
                             </li>
-                        </ul>               
+                        </motion.ul>
                     </div>
                 </div>
-                <figure>
-                    <img src="./programming.svg" alt="Imagem de desenvolvedor escrevendo código"/>
-                </figure>
+                <motion.figure
+
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}>
+                        
+                    <img src="./programming.svg" alt="Imagem de desenvolvedor escrevendo código" />
+                </motion.figure>
             </section>
             <section className={styles.skills}>
-                <h1 className={styles.textoPrincipal}>HABILIDADES PROFISSIONAIS</h1>
-                <div className={styles.icones}>
+                <motion.h1
+
+                    variants={fadeIn("down", 0.3)}
+                    initial="trembling"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+
+                    className={styles.textoPrincipal}>HABILIDADES PROFISSIONAIS
+                </motion.h1>
+                <motion.div
+
+                    variants={fadeIn("right", 0.3)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.5 }}
+
+                    className={styles.icones}>
                     <div className={styles.iconeContainer}>
                         <FaReact className={styles.icone} />
                         <span className={styles.iconeDescricao}>React</span>
@@ -89,14 +166,29 @@ function Sobre () {
                     <div className={styles.iconeContainer}>
                         <SiMongodb className={styles.icone} />
                         <span className={styles.iconeDescricao}>MongoDB</span>
-                    </div>        
+                    </div>
                     <div className={styles.iconeContainer}>
                         <FaCss3Alt className={styles.icone} />
                         <span className={styles.iconeDescricao}>CSS3</span>
-                    </div>                   
-                </div>
-                <h1 className={styles.textoPrincipal}>FERRAMENTAS QUE EU UTILIZO</h1>
-                <div className={styles.icones}>
+                    </div>
+                </motion.div>
+                <motion.h1
+
+                    variants={fadeIn("down", 0.3)}
+                    initial="trembling"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
+
+                    className={styles.textoPrincipal}>FERRAMENTAS QUE UTILIZO
+                </motion.h1>
+                <motion.div
+
+                    variants={fadeIn("left", 0.3)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.5 }}
+
+                    className={styles.icones}>
                     <div className={styles.iconeContainer}>
                         <FaGitAlt className={styles.icone} />
                         <span className={styles.iconeDescricao}>Git</span>
@@ -113,7 +205,7 @@ function Sobre () {
                         <AiOutlineLinux className={styles.icone} />
                         <span className={styles.iconeDescricao}>Linux</span>
                     </div>
-                </div>
+                </motion.div>
             </section>
         </>
     )

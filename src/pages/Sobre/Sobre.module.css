@@ -1,8 +1,10 @@
 .sobre {
     display: flex;
-    padding: 4rem;
+    padding: 8rem 4rem 4rem 10rem;
     color: var(--cinza-escuro);
     gap: 2rem;
+    width: 100%;
+    min-height: 95vh;
 }
 
 strong {
@@ -13,7 +15,7 @@ strong {
 .textoSobreMim {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 8rem;
 }
 
 .textoSuperior {
@@ -23,12 +25,12 @@ strong {
 }
 
 .textoPrincipal {
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
 }
 
 .textoSecundario {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .textoInferior {
@@ -44,7 +46,7 @@ strong {
 }
 
 .sobre img {
-    width: 500px;
+    width: 600px;
 }
 
 .skills {
@@ -52,6 +54,7 @@ strong {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    padding-bottom: 4rem;
 }
 
 .icones {

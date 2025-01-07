@@ -1,0 +1,29 @@
+.resumo {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem 1rem 2rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    text-decoration: none;
+    border: 1px solid var(--primaria);
+    background-color: var(--primaria);
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 20px;
+    color: var(--cinza-escuro);
+}
+
+.botao:hover {
+    transition: 0.5s;
+    background-color: var(--cinza-escuro);
+    color: var(--primaria);
+}
+
+.curriculo {
+    width: 1000px;
+}
