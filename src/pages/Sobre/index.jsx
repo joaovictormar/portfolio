@@ -145,7 +145,7 @@ function Sobre() {
                     </div>
                     <div className={styles.iconeContainer}>
                         <FaNode className={styles.icone} />
-                        <span className={styles.iconeDescricao}>Node.js</span>
+                        <span className={styles.iconeDescricao}>NodeJS</span>
                     </div>
                     <div className={styles.iconeContainer}>
                         <TbBrandCSharp className={styles.icone} />
