@@ -61,7 +61,7 @@ function Home() {
                         </motion.h1>
                         <motion.h3
 
-                            variants={fadeIn("right", 0.2)}
+                            variants={fadeIn("up", 0.2)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}>
@@ -70,7 +70,7 @@ function Home() {
                         </motion.h3>
                         <motion.h3
 
-                            variants={fadeIn("right", 0.2)}
+                            variants={fadeIn("up", 0.2)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}>
@@ -79,12 +79,12 @@ function Home() {
                         </motion.h3>
                         <motion.h3
 
-                            variants={fadeIn("right", 0.2)}
+                            variants={fadeIn("up", 0.2)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}>
                                 
-                            Utilizo minha paixão por desenvolvimento com <strong>Node.js e bibliotecas e frameworks de JavaScript moderno</strong> como <strong>React.js e Nest.js</strong>
+                            Utilizo minha paixão por desenvolvimento com <strong>Node.js e C#</strong>. Utilizando principalmente frameworks de JavaScript moderno como <strong>React.js e Nest.js</strong> e frameworks rápidos e robustos como <strong>.NET</strong>
                         </motion.h3>
                     </div>
                     <motion.figure

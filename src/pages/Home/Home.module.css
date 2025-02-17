@@ -29,6 +29,7 @@
 }
 
 .home img {
+    height: auto;
     width: 500px;
 }
 
@@ -121,4 +122,50 @@ strong {
     scale: 1.1;
     transition: 0.4s;
     border: 2px solid var(--primaria);
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 2rem;
+    }
+
+    .principal {
+        gap: 2rem;
+        right: 1rem;
+        justify-content: flex-start;
+        width: 350px;
+        height: 0;
+    }
+
+    .textoPrincipal {
+        font-size: 2rem;
+    }
+    
+    .textoDinamico {
+        font-size: 1.3rem;
+    }
+
+    .home img {
+        width: 350px;
+    }
+
+    .secundario {
+        flex-direction: column;
+        gap: 8rem;
+    }
+
+    .apresentacao {
+        gap: 3rem;
+    }
+
+    .homeApresentacao img {
+        width: 300px;
+    }
+
+    .conexao {
+        margin-top: 4rem;
+        gap: 2rem;
+    }
 }

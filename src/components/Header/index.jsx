@@ -5,7 +5,7 @@ function Header () {
 
     return (
         <header className={styles.header}>
-            <Link to="/">
+            <Link className={styles.linkDev} to="/">
                 <span>joaoMarques.dev</span>
             </Link>
             <nav>

@@ -26,3 +26,21 @@
 .header a:hover {
     color: var(--cinza-escuro);
 }
+
+@media (max-width: 768px) {
+
+.header {
+    width: 100vh;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.linkDev {
+    display: none;
+}
+
+.header a {
+    padding-right: 3rem;
+}
+
+}
