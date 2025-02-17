@@ -25,13 +25,14 @@
   align-items: center;
   width: 100%;
   justify-content: space-between;
+  gap: 2rem;
 }
 
 .titulo {
   font-size: 36px;
   flex-grow: 1;
   text-align: center;
-  padding-left: 6rem;
+  padding-left: 8rem;
 }
 
 .areaDev {
@@ -61,4 +62,26 @@
 .botao:hover {
   transition: 0.3s;
   scale: 1.2;
+}
+
+@media (max-width: 768px) {
+  .projetos {
+    flex-direction: column;
+  }
+
+  .cardProjeto {
+    width: 300px;
+  }
+
+  .titulos {
+    flex-direction: column;
+  }
+
+  .titulo {
+    padding: 0;
+  }
+
+  .imagem {
+    width: 250px;
+  }
 }
