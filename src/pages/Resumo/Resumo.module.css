@@ -27,3 +27,13 @@
 .curriculo {
     width: 1000px;
 }
+
+@media (max-width: 768px) {
+    .resumo {
+        width: 100%;
+    }
+   
+    .curriculo {
+        width: 400px;
+    }
+}
