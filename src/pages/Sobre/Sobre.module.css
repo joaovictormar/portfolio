@@ -5,6 +5,7 @@
     gap: 2rem;
     width: 100%;
     min-height: 95vh;
+    align-items: center;
 }
 
 strong {
@@ -111,5 +112,30 @@ strong {
     opacity: 1;
 }
 
+@media (max-width: 768px) {
+    .sobre {
+        flex-direction: column;
+        padding: 8rem 2rem 10rem 2rem;
+    }
 
+    .textoSuperior {
+        gap: 4rem;
+    }
 
+    .textoInferior {
+        gap: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .lista {
+        gap: 1.5rem;
+    }
+    
+    .sobre img {
+        width: 300px;
+    }
+
+    .textoPrincipal {
+        padding: 1rem;
+    }
+}

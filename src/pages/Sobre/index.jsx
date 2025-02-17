@@ -37,7 +37,7 @@ function Sobre() {
                         </motion.h1>
                         <motion.h3
 
-                            variants={fadeIn("left", 0.3)}
+                            variants={fadeIn("down", 0.3)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -46,7 +46,7 @@ function Sobre() {
                         </motion.h3>
                         <motion.h3
 
-                            variants={fadeIn("left", 0.3)}
+                            variants={fadeIn("down", 0.3)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -55,7 +55,7 @@ function Sobre() {
                         </motion.h3>
                         <motion.h3
 
-                            variants={fadeIn("left", 0.3)}
+                            variants={fadeIn("down", 0.3)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -64,7 +64,7 @@ function Sobre() {
                         </motion.h3>
                         <motion.h3
 
-                            variants={fadeIn("left", 0.3)}
+                            variants={fadeIn("down", 0.3)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -84,7 +84,7 @@ function Sobre() {
                         </motion.h2>
                         <motion.ul
 
-                            variants={fadeIn("left", 0.3)}
+                            variants={fadeIn("down", 0.3)}
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
@@ -125,7 +125,7 @@ function Sobre() {
                 </motion.h1>
                 <motion.div
 
-                    variants={fadeIn("right", 0.3)}
+                    variants={fadeIn("down", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.5 }}
@@ -183,7 +183,7 @@ function Sobre() {
                 </motion.h1>
                 <motion.div
 
-                    variants={fadeIn("left", 0.3)}
+                    variants={fadeIn("down", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.5 }}
